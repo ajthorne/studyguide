@@ -11,15 +11,16 @@
 
 
   import React from 'react';
+  import {Link} from 'react-router';
 
   const Nav = React.createClass({
     render: function () {
       return (
         <nav>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            <li><Link to="/html">HTML</Link></li>
+            <li><Link to="/css">CSS</Link></li>
+            <li><Link to="/js">JavaScript</Link></li>
           </ul>
         </nav>
       )
